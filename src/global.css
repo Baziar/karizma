@@ -1,0 +1,99 @@
+.switch {
+    position: relative;
+    width: 100px;
+    height: 32px;
+    margin: 8px;
+    font: 400 12px Arial;
+    border-radius: 25px;
+
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 24px;
+    background: #393741;
+    box-shadow: inset 5px 5px 8px 1px rgba(0, 0, 0, 0.2),
+        inset -5px -5px 8px 0px rgba(77, 71, 100, 0.3),
+        inset -1px -2px 2px 0px rgba(77, 71, 100, 0.4);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    color: #424250;
+}
+
+.slider:before {
+    position: absolute;
+    content: "OFF";
+    font-size: 10px;
+    text-align: center;
+    line-height: 24px;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    bottom: 5px;
+    background: #3a3842;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2),
+        -2px -2px 2px 0px rgba(89, 83, 116, 0.5);
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+input:checked+.slider {
+    background: #5a5e97;
+    box-shadow: inset 5px 5px 8px 1px #43466d,
+        inset -3px -3px 8px 0px #7175b3, inset -2px -2px 2px 1px #686fcc;
+}
+
+input:checked+.slider:before {
+    content: "ON";
+    transform: translateX(36px);
+    box-shadow: 2px 2px 2px 1px #43466d,
+        -2px -2px 2px 0px #585d8e;
+    color: #686fcc;
+
+}
+
+input {
+    width: 90%;
+    height: 4rem;
+    border-radius: 25px;
+    margin: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    border: none;
+    color: #E3E3E3;
+    font-size: 16px;
+    font-family: IranSans;
+    text-align: right;
+    padding-inline: 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #100e17;
+    box-shadow: inset 5px 5px 8px 1px rgba(0, 0, 0, 0.2),
+        inset -5px -5px 8px 0px rgba(77, 71, 100, 0.3),
+        inset -1px -2px 2px 0px rgba(77, 71, 100, 0.4);
+    transition: all 0.3s ease-in-out;
+
+}
+
+input:focus {
+    outline: none;
+    box-shadow: inset 5px 5px 8px 1px rgba(0, 0, 0, 0.2),
+        inset -5px -5px 8px 0px rgba(77, 71, 100, 0.3),
+        inset -1px -2px 2px 0px rgba(77, 71, 100, 0.4),
+        5px 5px 10px 2.5px rgba(0, 0, 0, 0.2),
+        -5px -5px 10px 2.5px rgba(77, 71, 100, 0.4),
+        -1px -1px 4px 2px rgba(77, 71, 100, 0.4);
+
+}

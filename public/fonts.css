@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Normal";
+  src: url("Fonts/Normal-ExtraLight.eot");
+  src: url("Fonts/Normal-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("Fonts/Normal-ExtraLight.woff2") format("woff2"),
+    url("Fonts/Normal-ExtraLight.woff") format("woff"),
+    url("Fonts/Normal-ExtraLight.ttf") format("truetype"),
+    url("Fonts/Normal-ExtraLight.svg#Normal-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Normal";
+  src: url("Fonts/Normal-Light.eot");
+  src: url("Fonts/Normal-Light.eot?#iefix") format("embedded-opentype"),
+    url("Fonts/Normal-Light.woff2") format("woff2"),
+    url("Fonts/Normal-Light.woff") format("woff"),
+    url("Fonts/Normal-Light.ttf") format("truetype"),
+    url("Fonts/Normal-Light.svg#Normal-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Normal";
+  src: url("Fonts/Normal-Regular.eot");
+  src: url("Fonts/Normal-Regular.eot?#iefix") format("embedded-opentype"),
+    url("Fonts/Normal-Regular.woff2") format("woff2"),
+    url("Fonts/Normal-Regular.woff") format("woff"),
+    url("Fonts/Normal-Regular.ttf") format("truetype"),
+    url("Fonts/Normal-Regular.svg#Normal-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Normal";
+  src: url("Fonts/Normal-Bold.eot");
+  src: url("Fonts/Normal-Bold.eot?#iefix") format("embedded-opentype"),
+    url("Fonts/Normal-Bold.woff2") format("woff2"),
+    url("Fonts/Normal-Bold.woff") format("woff"),
+    url("Fonts/Normal-Bold.ttf") format("truetype"),
+    url("Fonts/Normal-Bold.svg#Normal-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Normal";
+  src: url("Fonts/Normal-ExtraBold.eot");
+  src: url("Fonts/Normal-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("Fonts/Normal-ExtraBold.woff2") format("woff2"),
+    url("Fonts/Normal-ExtraBold.woff") format("woff"),
+    url("Fonts/Normal-ExtraBold.ttf") format("truetype"),
+    url("Fonts/Normal-ExtraBold.svg#Normal-ExtraBold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IranSans";
+  src: url("Fonts/iransans/eot/IRANSansWeb_UltraLight.eot");
+  src: url("Fonts/iransans/eot/IRANSansWeb_UltraLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("Fonts/iransans/woff2/IRANSansWeb_UltraLight.woff2") format("woff2"),
+    url("Fonts/iransans/woff/IRANSansWeb_UltraLight.woff") format("woff"),
+    url("Fonts/iransans/ttf/IRANSansWeb_UltraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IranSans";
+  src: url("Fonts/iransans/eot/IRANSansWeb_Light.eot");
+  src: url("Fonts/iransans/eot/IRANSansWeb_Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("Fonts/iransans/woff2/IRANSansWeb_Light.woff2") format("woff2"),
+    url("Fonts/iransans/woff/IRANSansWeb_Light.woff") format("woff"),
+    url("Fonts/iransans/ttf/IRANSansWeb_Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IranSans";
+  src: url("Fonts/iransans/eot/IRANSansWeb.eot");
+  src: url("Fonts/iransans/eot/IRANSansWeb.eot?#iefix")
+      format("embedded-opentype"),
+    url("Fonts/iransans/woff2/IRANSansWeb.woff2") format("woff2"),
+    url("Fonts/iransans/woff/IRANSansWeb.woff") format("woff"),
+    url("Fonts/iransans/ttf/IRANSansWeb.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IranSans";
+  src: url("Fonts/iransans/eot/IRANSansWeb_Medium.eot");
+  src: url("Fonts/iransans/eot/IRANSansWeb_Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("Fonts/iransans/woff2/IRANSansWeb_Medium.woff2") format("woff2"),
+    url("Fonts/iransans/woff/IRANSansWeb_Medium.woff") format("woff"),
+    url("Fonts/iransans/ttf/IRANSansWeb_Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IranSans";
+  src: url("Fonts/iransans/eot/IRANSansWeb_Bold.eot");
+  src: url("Fonts/iransans/eot/IRANSansWeb_Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("Fonts/iransans/woff2/IRANSansWeb_Bold.woff2") format("woff2"),
+    url("Fonts/iransans/woff/IRANSansWeb_Bold.woff") format("woff"),
+    url("Fonts/iransans/ttf/IRANSansWeb_Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
